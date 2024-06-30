@@ -1,5 +1,5 @@
 # MATH135_DL
-## This repo is used to download the University of Waterloo MATH135 Lecture Videos.
+## This repo contains the code for downloading the University of Waterloo MATH135 Lecture Videos.
 # Usage
 ## Python
 Run 
