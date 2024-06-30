@@ -10,6 +10,8 @@ check_wget() {
             sudo apt install -y wget
         elif command -v yum &> /dev/null; then
             sudo yum install -y wget
+        elif command -v pacman &> /dev/null; then
+            sudo pacman -Sy wget
         else
             echo "Cannot install wget. Please install wget manually."
             exit 1
