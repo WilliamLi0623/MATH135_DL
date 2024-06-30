@@ -3,7 +3,9 @@
 # Usage
 ## Python
 Run 
-```python MATH135_DL.py```
+```
+python MATH135_DL.py
+```
 to download the videos.
 
 ## Linux Shell
