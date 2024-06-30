@@ -5,9 +5,9 @@ check_wget() {
     if ! command -v wget &> /dev/null; then
         echo "wget is not installed. Installing wget..."
         # Install wget based on package manager
-        if command -v apt-get &> /dev/null; then
-            sudo apt-get update
-            sudo apt-get install -y wget
+        if command -v apt &> /dev/null; then
+            sudo apt update
+            sudo apt install -y wget
         elif command -v yum &> /dev/null; then
             sudo yum install -y wget
         else
